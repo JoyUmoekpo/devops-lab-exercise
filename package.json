@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/JoyUmoekpo/devops-lab-exercise/issues"
   },
-  "homepage": "https://github.com/JoyUmoekpo/devops-lab-exercise#readme"
+  "homepage": "https://github.com/JoyUmoekpo/devops-lab-exercise#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
 }

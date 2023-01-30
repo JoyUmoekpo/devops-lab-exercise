@@ -12,6 +12,7 @@ app.use(cors());
 app.use(express.static('public'))
 
 var Rollbar = require('rollbar')
+
 var rollbar = new Rollbar({
     accessToken: ROLLBAR_TOKEN,
     captureUncaught: true,
